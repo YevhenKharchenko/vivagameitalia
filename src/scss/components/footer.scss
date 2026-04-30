@@ -1,0 +1,150 @@
+.footer {
+  background: #6f26a2;
+
+  @include media(desktop) {
+  }
+}
+
+.footer-bg-wrapper {
+  padding-top: 40px;
+  padding-bottom: 16px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+  }
+}
+
+.footer-container {
+  @include media(desktop) {
+  }
+}
+
+.footer-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 40px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+  }
+}
+
+.footer-title-wrapper {
+  @include media(desktop) {
+    max-width: max-content;
+  }
+}
+
+.footer-logo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.footer-img {
+  @include media(desktop) {
+  }
+}
+
+.footer-text {
+  font-family: 'Onest', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #bfacff;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
+
+.footer-nav-list {
+  display: flex;
+  flex-direction: column;
+
+  @include media(desktop) {
+    max-width: max-content;
+  }
+}
+
+.footer-nav-list-item {
+  @include media(desktop) {
+  }
+}
+
+.footer-nav-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Onest', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #bfacff;
+  max-width: max-content;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
+
+.footer-nav {
+  @include media(desktop) {
+    max-width: max-content;
+  }
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  @include media(desktop) {
+    align-items: end;
+  }
+}
+
+.footer-link {
+  font-family: 'Onest', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #bfacff;
+  transition: color 0.3s ease-in-out;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+
+  &:hover,
+  &:focus {
+  }
+}
+
+.footer-bottom-text {
+  font-family: 'Onest', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.5;
+  text-align: right;
+  color: #bfacff;
+
+  @include media(desktop) {
+    font-size: 12px;
+  }
+}
