@@ -1,14 +1,13 @@
 .context-menu {
-  background: #947fd8;
-  border-radius: 16px;
-  padding: 28px 0px;
+  background: #d4e1ff;
+  padding: 48px;
   display: none;
   justify-content: center;
   width: 100%;
-  max-width: 343px;
+  max-width: 375px;
   margin: 0 auto;
   position: fixed;
-  top: 72px;
+  top: 56px;
   left: 0;
   right: 0;
   transform: none;
@@ -17,6 +16,7 @@
 
 .context-nav {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -25,21 +25,149 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 25px;
+  gap: 4px;
 }
 
 .context-list-link {
+  padding: 10px 25px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Onest', sans-serif;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.3;
-  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  color: #000;
   transition: color 0.3s ease-in-out;
 
   &:active {
+  }
+}
+
+.context-other-menu-wrapper {
+  display: flex;
+  position: relative;
+}
+
+.context-other-btn {
+  padding: 10px 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 88px;
+}
+
+.context-btn-span {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 11px;
+  text-align: center;
+  color: #1258ff;
+
+  @include media(desktop) {
+  }
+}
+
+.context-other-list {
+  display: none;
+  flex-direction: column;
+  gap: 8px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 11px 14px 22px 14px;
+  width: 100%;
+  max-width: 112px;
+  min-width: 112px;
+  position: absolute;
+  top: 44px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  @include media(desktop) {
+  }
+}
+
+.context-other-list-is-open {
+  display: flex;
+
+  @include media(desktop) {
+    display: none;
+  }
+}
+
+.context-other-list-item {
+  @include media(desktop) {
+  }
+}
+
+.context-other-list-link {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  color: #000;
+
+  @include media(desktop) {
+  }
+}
+
+.context-btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+
+  @include media(desktop) {
+  }
+}
+
+.context-style-btn {
+  border: 1px solid #b4caff;
+  border-radius: 50px;
+  padding: 9px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  color: #000;
+
+  @include media(desktop) {
+  }
+}
+
+.context-sign-in-btn {
+  background: #fff;
+  border: 1px solid #e7ecf8;
+  border-radius: 50px;
+  padding: 9px 15px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  color: #000;
+
+  @include media(desktop) {
+  }
+}
+
+.context-register-btn {
+  background: #e9a423;
+  border: 1px solid #e7ecf8;
+  border-radius: 50px;
+  padding: 9px 13px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  color: #000;
+
+  @include media(desktop) {
   }
 }
 

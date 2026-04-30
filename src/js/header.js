@@ -2,8 +2,14 @@ const contextMenu = document.querySelector('.context-menu');
 const menuBtn = document.querySelector('.nav-btn');
 const closeContextBtn = document.querySelector('.close-btn');
 const header = document.querySelector('.header');
+const otherBtn = document.querySelector('.header-other-btn');
+const otherList = document.querySelector('.header-other-list');
+const contextOtherBtn = document.querySelector('.context-other-btn');
+const contextOtherList = document.querySelector('.context-other-list');
 
 menuBtn.addEventListener('click', onMenuButtonClick);
+otherBtn.addEventListener('click', onOtherButtonClick);
+contextOtherBtn.addEventListener('click', onContextOtherButtonClick);
 
 let contextMenuIsOpen = false;
 
@@ -45,6 +51,14 @@ function onOutsideMenuClick(e) {
   if (!isClickInsideMenu && !isClickOnMenuBtn && !isClickOnCloseBtn) {
     onCloseContextButtonClick();
   }
+}
+
+function onOtherButtonClick() {
+  otherList.classList.toggle('other-list-is-open');
+}
+
+function onContextOtherButtonClick() {
+  contextOtherList.classList.toggle('context-other-list-is-open');
 }
 
 const navLinks = document.querySelectorAll('.nav-list-link');
