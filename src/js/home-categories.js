@@ -1,29 +1,32 @@
 import Swiper from 'swiper';
 import 'swiper/css/bundle';
 
-let reviewsSwiper;
+let homeMethodologySwiper;
 
-reviewsSwiper = new Swiper('.reviews-swiper-container', {
+homeMethodologySwiper = new Swiper('.home-methodology-swiper-container', {
   direction: 'horizontal',
   loop: false,
   grabCursor: true,
   centeredSlides: true,
   slidesPerView: 1,
   initialSlide: 0,
-  spaceBetween: 16,
-  grabCursor: true,
+  spaceBetween: 12,
   allowTouchMove: true,
   speed: 500,
   breakpoints: {
     1440: {
       centeredSlides: false,
-      slidesPerView: 'auto',
-      spaceBetween: 32,
+      slidesPerView: 4,
+      spaceBetween: 0,
+      grabCursor: false,
+      allowTouchMove: false,
     },
   },
   on: {
     init: () => {
-      document.querySelector('.reviews-swiper-container').classList.add('show');
+      document
+        .querySelector('.home-methodology-swiper-container')
+        .classList.add('show');
     },
   },
 });

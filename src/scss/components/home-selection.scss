@@ -1,0 +1,163 @@
+.home-selection-section {
+  @include media(desktop) {
+  }
+}
+
+.home-selection-section-wrapper {
+  padding-top: 42px;
+  padding-bottom: 88px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+
+  @include media(desktop) {
+    padding-top: 42px;
+    padding-bottom: 42px;
+    max-width: 1440px;
+  }
+}
+
+.home-selection-container {
+  @include media(desktop) {
+  }
+}
+
+.home-selection-title {
+  @include media(desktop) {
+  }
+}
+
+.home-selection-subtitle {
+  margin-bottom: 36px;
+
+  @include media(desktop) {
+  }
+}
+
+.home-selection-swiper-container {
+  max-width: 355px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 100%;
+  }
+}
+
+.home-selection-swiper-container.show {
+  visibility: visible;
+}
+
+.home-selection-swiper-wrapper {
+  @include media(desktop) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch !important;
+    gap: 24px;
+  }
+}
+
+.home-selection-list-item {
+  background: #fff;
+  border-radius: 30px;
+  width: 100% !important;
+  max-width: 355px;
+  min-height: 762px;
+  display: flex !important;
+  flex-direction: column;
+  overflow: hidden;
+
+  @include media(desktop) {
+    max-width: 414px;
+    min-height: 771px;
+  }
+}
+
+.home-selection-img {
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+  }
+}
+
+.home-selection-item-text-wrapper {
+  padding: 35px 5px 55px;
+
+  @include media(desktop) {
+    padding: 35px 23px 76px;
+  }
+}
+
+.home-selection-item-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 2.25;
+  color: #000;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+  }
+}
+
+.home-selection-item-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.1;
+  color: #000;
+  margin-bottom: 35px;
+
+  @include media(desktop) {
+  }
+}
+
+.home-selection-item-text-span {
+  line-height: 1.6;
+
+  @include media(desktop) {
+  }
+}
+
+.home-selection-btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 21px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.home-selection-open-btn {
+  background: #e9a423;
+  border-radius: 50px;
+  padding: 11px 24px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  max-width: max-content;
+
+  @include media(desktop) {
+  }
+}
+
+.home-selection-evaluate-btn {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #e9a423;
+  max-width: max-content;
+
+  @include media(desktop) {
+  }
+}

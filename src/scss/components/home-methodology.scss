@@ -1,0 +1,137 @@
+.home-methodology-section {
+  background: #d4e1ff;
+
+  @include media(desktop) {
+  }
+}
+
+.home-methodology-section-wrapper {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+
+  @include media(desktop) {
+    padding-top: 59px;
+    padding-bottom: 59px;
+    max-width: 1440px;
+  }
+}
+
+.home-methodology-container {
+  @include media(desktop) {
+  }
+}
+
+.home-methodology-title {
+  @include media(desktop) {
+  }
+}
+
+.home-methodology-subtitle-wrapper {
+  margin-bottom: 64px;
+
+  @include media(desktop) {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-bottom: 70px;
+  }
+}
+
+.home-methodology-subtitle {
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+    margin-bottom: 0;
+  }
+}
+
+.home-methodology-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #b4caff;
+  border-radius: 50px;
+  padding: 17px 26px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  color: #000;
+  max-width: max-content;
+
+  @include media(desktop) {
+  }
+}
+
+.home-methodology-swiper-container {
+  max-width: 296px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 100%;
+  }
+}
+
+.home-methodology-swiper-container.show {
+  visibility: visible;
+}
+
+.home-methodology-swiper-wrapper {
+  @include media(desktop) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 34px;
+  }
+}
+
+.home-methodology-list-item {
+  background: #fff;
+  border-radius: 30px;
+  padding: 29px 17px;
+  width: 100% !important;
+  max-width: 296px;
+  display: flex !important;
+  flex-direction: column;
+  overflow: hidden;
+
+  @include media(desktop) {
+  }
+}
+
+.home-methodology-item-number {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #e9a423;
+  margin-bottom: 10px;
+
+  @include media(desktop) {
+  }
+}
+
+.home-methodology-item-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+  }
+}
+
+.home-methodology-item-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+
+  @include media(desktop) {
+  }
+}

@@ -1,0 +1,131 @@
+.home-hero-section {
+  @include media(desktop) {
+  }
+}
+
+.home-hero-bg-wrapper {
+  padding-top: 90px;
+  padding-bottom: 27px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/home/home-hero-bg-mob.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+
+  @include media(desktop) {
+    padding-top: 165px;
+    padding-bottom: 10px;
+    max-width: 1440px;
+    background-image: url(../img/home/home-hero-bg-desk.png);
+  }
+}
+
+.home-hero-container {
+  padding: 0;
+
+  @include media(desktop) {
+    padding: 0 75px;
+  }
+}
+
+.home-hero-content-wrapper {
+  background: rgba(212, 225, 255, 0.6);
+  border-radius: 50px;
+  padding: 90px 19px 64px;
+
+  @include media(desktop) {
+    padding: 74px 68px 57px;
+  }
+}
+
+.home-hero-text-wrapper {
+  @include media(desktop) {
+    max-width: 742px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.home-hero-main-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.1;
+  text-align: center;
+  color: #000;
+  margin-bottom: 48px;
+
+  @include media(desktop) {
+    font-size: 64px;
+    line-height: 1.125;
+  }
+}
+
+.home-hero-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #676565;
+  margin-bottom: 41px;
+
+  @include media(desktop) {
+  }
+}
+
+.home-hero-btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+  }
+}
+
+.home-hero-reviews-btn {
+  background: #e9a423;
+  border-radius: 20px;
+  padding: 17px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  @include media(desktop) {
+    border-radius: 50px;
+    padding: 17px 31px;
+    max-width: max-content;
+  }
+}
+
+.home-hero-categories-btn {
+  border: 1px solid #b4caff;
+  border-radius: 20px;
+  padding: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  @include media(desktop) {
+    border-radius: 50px;
+    padding: 16px 34px;
+    max-width: max-content;
+  }
+}
