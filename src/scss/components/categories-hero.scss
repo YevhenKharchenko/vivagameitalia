@@ -1,23 +1,21 @@
-.home-security-section {
+.categories-hero-section {
   @include media(desktop) {
   }
 }
 
-.home-security-bg-wrapper {
-  padding-top: 42px;
-  padding-bottom: 42px;
+.categories-hero-bg-wrapper {
+  padding-top: 115px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
 
   @include media(desktop) {
-    padding-top: 128px;
-    padding-bottom: 128px;
+    padding-top: 202px;
     max-width: 1440px;
   }
 }
 
-.home-security-container {
+.categories-hero-container {
   padding: 0 10px;
 
   @include media(desktop) {
@@ -25,7 +23,7 @@
   }
 }
 
-.home-security-content-wrapper {
+.categories-hero-content-wrapper {
   display: flex;
   flex-direction: column;
   gap: 64px;
@@ -37,25 +35,25 @@
   }
 }
 
-.home-security-text-wrapper {
+.categories-hero-text-wrapper {
   @include media(desktop) {
     max-width: 602px;
   }
 }
 
-.home-security-title {
+.categories-hero-title {
   @include media(desktop) {
   }
 }
 
-.home-security-subtitle {
+.categories-hero-subtitle {
   margin-bottom: 24px;
 
   @include media(desktop) {
   }
 }
 
-.home-security-text {
+.categories-hero-text {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -66,74 +64,50 @@
   }
 }
 
-.home-security-btn-wrapper {
+.categories-hero-list {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   gap: 26px;
 
   @include media(desktop) {
   }
 }
 
-.home-security-methodology-btn {
-  background: #e9a423;
-  border-radius: 50px;
-  padding: 17px 50px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: 11px;
-  text-align: center;
-  color: #000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: max-content;
-
-  @include media(desktop) {
-  }
-}
-
-.home-security-faq-btn {
+.categories-hero-list-item {
+  background: #fff;
   border: 1px solid #b4caff;
   border-radius: 50px;
-  padding: 16px 41px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: 11px;
-  text-align: center;
-  color: #000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 11px;
   width: 100%;
-  max-width: max-content;
+  max-width: 162px;
 
   @include media(desktop) {
   }
 }
 
-.home-security-img-wrapper {
-  background: #d4e1ff;
-  border-radius: 30px;
-  padding-bottom: 41px;
+.categories-hero-item-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #000;
 
   @include media(desktop) {
-    padding-bottom: 28px;
+  }
+}
+
+.categories-hero-img-wrapper {
+  background: #d4e1ff;
+  border-radius: 30px;
+  padding: 45px 10px 78px 10px;
+
+  @include media(desktop) {
+    padding: 88px 0;
     max-width: 560px;
   }
 }
 
-.home-security-img {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 35px;
-
-  @include media(desktop) {
-  }
-}
-
-.home-security-img-title {
+.categories-hero-img-title {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 32px;
@@ -148,9 +122,11 @@
   }
 }
 
-.home-security-list {
-  list-style-type: disc;
-  padding-left: 30px;
+.categories-hero-img-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.1;
   color: #000;
   margin-bottom: 35px;
 
@@ -161,36 +137,60 @@
   }
 }
 
-.home-security-list-item {
-  @include media(desktop) {
-  }
-}
-
-.home-security-item-text {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 1.1;
-  color: #000;
+.categories-hero-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 35px;
 
   @include media(desktop) {
   }
 }
 
-.home-security-img-text {
+.categories-hero-img-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+  }
+}
+
+.categories-hero-img-list-item {
   background: #fff;
-  border: 1px solid #676565;
   border-radius: 30px;
-  padding: 20px 18px;
+  padding: 20px;
+
+  @include media(desktop) {
+    padding: 16px 35px;
+    max-width: 246px;
+  }
+}
+
+.categories-hero-img-item-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 12px;
+
+  @include media(desktop) {
+    text-align: left;
+  }
+}
+
+.categories-hero-img-item-text {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 20px;
+  text-align: center;
   color: #000;
 
   @include media(desktop) {
-    padding: 33px 21px;
-    max-width: 505px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: left;
   }
 }
