@@ -1,9 +1,9 @@
 import Swiper from 'swiper';
 import 'swiper/css/bundle';
 
-let homeMethodologySwiper;
+let homeCategoriesSwiper;
 
-homeMethodologySwiper = new Swiper('.home-methodology-swiper-container', {
+homeCategoriesSwiper = new Swiper('.home-categories-swiper-container', {
   direction: 'horizontal',
   loop: false,
   grabCursor: true,
@@ -25,7 +25,7 @@ homeMethodologySwiper = new Swiper('.home-methodology-swiper-container', {
   on: {
     init: () => {
       document
-        .querySelector('.home-methodology-swiper-container')
+        .querySelector('.home-categories-swiper-container')
         .classList.add('show');
     },
   },

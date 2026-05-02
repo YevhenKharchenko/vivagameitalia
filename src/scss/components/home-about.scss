@@ -1,0 +1,151 @@
+.home-about-section {
+  @include media(desktop) {
+  }
+}
+
+.home-about-bg-wrapper {
+  padding-top: 42px;
+  padding-bottom: 42px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+  }
+}
+
+.home-about-container {
+  padding: 0 10px;
+
+  @include media(desktop) {
+    padding: 0 75px;
+  }
+}
+
+.home-about-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+  }
+}
+
+.home-about-text-wrapper {
+  background: #fff;
+  border-radius: 30px;
+  padding: 51px 10px;
+
+  @include media(desktop) {
+    padding: 32px 41px;
+    max-width: 684px;
+  }
+}
+
+.home-about-title {
+  @include media(desktop) {
+  }
+}
+
+.home-about-subtitle {
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+  }
+}
+
+.home-about-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #676565;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+  }
+}
+
+.home-about-btn {
+  background: #e9a423;
+  border-radius: 50px;
+  padding: 17px 21px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: max-content;
+
+  @include media(desktop) {
+  }
+}
+
+.home-about-bottom-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+
+  @include media(desktop) {
+  }
+}
+
+.home-about-bottom-text-wrapper {
+  background: #fff;
+  border: 1px solid #676565;
+  border-radius: 30px;
+  padding: 24px 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @include media(desktop) {
+    padding: 38px 33px;
+    max-width: 532px;
+  }
+}
+
+.home-about-bottom-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: #000;
+  margin-bottom: 10px;
+
+  @include media(desktop) {
+  }
+}
+
+.home-about-bottom-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #000;
+
+  @include media(desktop) {
+  }
+}
+
+.home-about-email-link {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+
+  @include media(desktop) {
+  }
+}
+
+.home-about-bottom-text-span {
+  font-weight: 400;
+
+  @include media(desktop) {
+  }
+}
