@@ -6,3 +6,4 @@ import './js/home-platforms.js';
 import './js/home-faq.js';
 import './js/categories-overview.js';
 import './js/categories-routes.js';
+import './js/reviews-catalogue.js';

@@ -1,0 +1,246 @@
+.reviews-catalogue-section {
+  @include media(desktop) {
+  }
+}
+
+.reviews-catalogue-section-wrapper {
+  padding-top: 42px;
+  padding-bottom: 42px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+
+  @include media(desktop) {
+    padding-top: 42px;
+    padding-bottom: 42px;
+    max-width: 1440px;
+  }
+}
+
+.reviews-catalogue-container {
+  padding: 0;
+
+  @include media(desktop) {
+    padding: 0 75px;
+  }
+}
+
+.reviews-catalogue-form {
+  background: #fff;
+  border-radius: 30px;
+  padding: 36px 10px 47px;
+  margin-bottom: 84px;
+
+  @include media(desktop) {
+  }
+}
+
+.reviews-catalogue-toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 26px;
+
+  @include media(desktop) {
+  }
+}
+
+.reviews-catalogue-input {
+  background: #fff;
+  border: 1px solid #b4caff;
+  border-radius: 20px;
+  padding: 27px 6px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #676565;
+
+  @include media(desktop) {
+  }
+}
+
+.reviews-catalogue-select {
+  background: #fff;
+  border: 1px solid #b4caff;
+  border-radius: 20px;
+  padding: 22px 40px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: right;
+  color: #676565;
+
+  @include media(desktop) {
+  }
+}
+
+.reviews-catalogue-filter-chips {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+  }
+}
+
+.reviews-catalogue-filter-chip {
+  border: 1px solid #000;
+  border-radius: 15px;
+  padding: 11px 21px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #676565;
+  max-width: max-content;
+
+  @include media(desktop) {
+  }
+}
+
+.reviews-catalogue-filter-chip .active {
+  background: #e9a423;
+  color: #fff;
+
+  @include media(desktop) {
+  }
+}
+
+.reviews-catalogue-form-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #676565;
+
+  @include media(desktop) {
+  }
+}
+
+.reviews-catalogue-swiper-container {
+  max-width: 355px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 100%;
+  }
+}
+
+.reviews-catalogue-swiper-container.show {
+  visibility: visible;
+}
+
+.reviews-catalogue-swiper-wrapper {
+  @include media(desktop) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch !important;
+    gap: 24px;
+  }
+}
+
+.reviews-catalogue-list-item {
+  background: #fff;
+  border-radius: 30px;
+  width: 100% !important;
+  max-width: 355px;
+  min-height: 762px;
+  display: flex !important;
+  flex-direction: column;
+  overflow: hidden;
+
+  @include media(desktop) {
+    max-width: 414px;
+    min-height: 771px;
+  }
+}
+
+.reviews-catalogue-img {
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+  }
+}
+
+.reviews-catalogue-item-text-wrapper {
+  padding: 35px 5px 55px;
+
+  @include media(desktop) {
+    padding: 35px 23px 76px;
+  }
+}
+
+.reviews-catalogue-item-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 2.25;
+  color: #000;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+  }
+}
+
+.reviews-catalogue-item-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.1;
+  color: #000;
+  margin-bottom: 35px;
+
+  @include media(desktop) {
+  }
+}
+
+.reviews-catalogue-item-text-span {
+  line-height: 1.6;
+
+  @include media(desktop) {
+  }
+}
+
+.reviews-catalogue-btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 21px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.reviews-catalogue-open-btn {
+  background: #e9a423;
+  border-radius: 50px;
+  padding: 11px 24px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  max-width: max-content;
+
+  @include media(desktop) {
+  }
+}
+
+.reviews-catalogue-evaluate-btn {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #e9a423;
+  max-width: max-content;
+
+  @include media(desktop) {
+  }
+}

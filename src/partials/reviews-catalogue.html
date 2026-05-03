@@ -1,0 +1,461 @@
+<section class="reviews-catalogue-section section" id="reviews-catalogue">
+  <div class="reviews-catalogue-section-wrapper">
+    <div class="container reviews-catalogue-container">
+      <form action="" class="reviews-catalogue-form">
+        <div class="reviews-catalogue-toolbar">
+          <input
+            type="search"
+            data-filter="search"
+            placeholder="Cerca per nome, genere o caratteristica"
+            class="reviews-catalogue-input"
+          />
+          <select
+            name=""
+            id=""
+            data-filter="genre"
+            class="reviews-catalogue-select"
+          >
+            <option value="all">Tutti i generi</option>
+            <option value="Strategia">Strategia</option>
+            <option value="Avventura">Avventura</option>
+            <option value="MMORPG">MMORPG</option>
+            <option value="Simulazione">Simulazione</option>
+            <option value="Construzione">Construzione</option>
+            <option value="Gestione risorse">Gestione risorse</option>
+            <option value="Giochi via browser">Giochi via browser</option>
+            <option value="Casual">Casual</option>
+            <option value="Social">Social</option>
+          </select>
+          <select
+            name=""
+            id=""
+            data-filter="sort"
+            class="reviews-catalogue-select"
+          >
+            <option value="editorial">Ordina per lettura editoriale</option>
+            <option value="popularity">Ordina per popularita</option>
+            <option value="browser">Ordina per esperienza browser</option>
+            <option value="alphabetical">Ordina per alfabeticamente</option>
+          </select>
+        </div>
+        <div class="reviews-catalogue-filter-chips">
+          <button
+            class="reviews-catalogue-filter-chip active"
+            type="button"
+            data-quick-filter="all"
+          >
+            Tutti
+          </button>
+          <button
+            class="reviews-catalogue-filter-chip"
+            type="button"
+            data-quick-filter="editorial"
+          >
+            Consigli della redazione
+          </button>
+          <button
+            class="reviews-catalogue-filter-chip"
+            type="button"
+            data-quick-filter="browser"
+          >
+            Migliori per browser
+          </button>
+          <button
+            class="reviews-catalogue-filter-chip"
+            type="button"
+            data-quick-filter="easy"
+          >
+            Facili da avviare
+          </button>
+          <button
+            class="reviews-catalogue-filter-chip"
+            type="button"
+            data-quick-filter="structured"
+          >
+            Più strutturati
+          </button>
+        </div>
+        <p class="reviews-catalogue-form-text">
+          9 piattaforme visibili su 9. Usa ricerca, categoria e ordinamento per
+          confrontare con più chiarezza.
+        </p>
+      </form>
+      <div class="reviews-catalogue-swiper-container">
+        <ul class="swiper-wrapper reviews-catalogue-swiper-wrapper">
+          <li
+            class="swiper-slide reviews-catalogue-list-item"
+            data-title="Dark Genesis"
+            data-genre="MMORPG"
+            data-tags="fantasy mmorpg browser"
+            data-score="9.2"
+            data-editorial="true"
+            data-browser="true"
+          >
+            <picture>
+              <source
+                srcset="./img/reviews/reviews-catalogue-img1-desk.png"
+                media="(min-width: 1440px)"
+                width="629"
+                height="307" />
+              <source
+                srcset="./img/reviews/reviews-catalogue-img1-mob.png"
+                width="375"
+                height="307" />
+              <img
+                class="reviews-catalogue-img"
+                src="./img/reviews/reviews-catalogue-img1-mob.png"
+                alt="Screenshot of the game"
+                width="375"
+                height="307"
+                loading="lazy"
+            /></picture>
+            <div class="reviews-catalogue-item-text-wrapper">
+              <p class="reviews-catalogue-item-type">
+                Solido per fantasy browser
+              </p>
+              <p class="reviews-catalogue-item-rating">Score 9.2</p>
+              <h3 class="reviews-catalogue-item-title">Dark Genesis</h3>
+              <p class="reviews-catalogue-item-text">
+                MMORPG fantasy con progressione, battaglie e sviluppo del
+                personaggio.<br />
+                <br />
+                Dark Genesis punta su un mondo mitologico ricco di conflitti,
+                evoluzione continua e presenza costante di contenuti da seguire
+                nel tempo. La costruzione della cittadella e il reclutamento di
+                alleati semi-divini danno al gioco una base più strutturata
+                rispetto a un semplice browser title lineare.
+              </p>
+              <ul class="reviews-catalogue-features-list">
+                <li class="reviews-catalogue-features-item">
+                  <p class="reviews-catalogue-features-item-text">
+                    Progressione pensata per sessioni ripetute e crescita
+                    continua
+                  </p>
+                </li>
+                <li class="reviews-catalogue-features-item">
+                  <p class="reviews-catalogue-features-item-text">
+                    Buon equilibrio fra combattimento, sviluppo e ambientazione
+                  </p>
+                </li>
+                <li class="reviews-catalogue-features-item">
+                  <p class="reviews-catalogue-features-item-text">
+                    Presenza di elementi MMO che favoriscono permanenza e
+                    coinvolgimento
+                  </p>
+                </li>
+                <li class="reviews-catalogue-features-item">
+                  <p class="reviews-catalogue-features-item-text">
+                    Ideale per chi cerca fantasy, avanzamento e combattimenti
+                    regolari
+                  </p>
+                </li>
+              </ul>
+              <ul class="reviews-catalogue-tags-list">
+                <li class="reviews-catalogue-tags-item">
+                  <p class="reviews-catalogue-tags-text">MMORPG</p>
+                </li>
+                <li class="reviews-catalogue-tags-item">
+                  <p class="reviews-catalogue-tags-text">Fantasy</p>
+                </li>
+                <li class="reviews-catalogue-tags-item">
+                  <p class="reviews-catalogue-tags-text">Fantasy</p>
+                </li>
+              </ul>
+              <div class="reviews-catalogue-btn-wrapper">
+                <a
+                  href="https://play.ikariam.gameforge.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="reviews-catalogue-open-btn"
+                  >Apri il sito</a
+                >
+                <a href="./methodology" class="reviews-catalogue-evaluate-btn"
+                  >Come valutiamo</a
+                >
+              </div>
+            </div>
+          </li>
+          <li
+            class="swiper-slide reviews-catalogue-list-item"
+            data-title="Tentlan"
+            data-genre="Strategia"
+            data-tags="strategia costruzione gestione risors"
+            data-score="9.1"
+            data-editorial="false"
+            data-browser="false"
+          >
+            <picture>
+              <source
+                srcset="./img/reviews/reviews-catalogue-img2-desk.png"
+                media="(min-width: 1440px)"
+                width="629"
+                height="307" />
+              <source
+                srcset="./img/reviews/reviews-catalogue-img2-mob.png"
+                width="375"
+                height="307" />
+              <img
+                class="reviews-catalogue-img"
+                src="./img/reviews/reviews-catalogue-img2-mob.png"
+                alt="Screenshot of the game"
+                width="375"
+                height="307"
+                loading="lazy"
+            /></picture>
+            <div class="reviews-catalogue-item-text-wrapper">
+              <p class="reviews-catalogue-item-type">
+                Consigliato per strategia classica
+              </p>
+              <p class="reviews-catalogue-item-rating">Score 9.1</p>
+              <h3 class="reviews-catalogue-item-title">Tentlan</h3>
+              <p class="reviews-catalogue-item-text">
+                Strategia browser con città Maya, risorse, rituali e
+                combattimento.<br />
+                <br />
+                Tentlan costruisce la sua identità su gestione, espansione e
+                atmosfera storica-fantastica. È una piattaforma che parla
+                soprattutto a chi ama crescere lentamente, rafforzare il proprio
+                insediamento e leggere il gioco come una costruzione nel lungo
+                periodo.
+              </p>
+              <ul class="reviews-catalogue-features-list">
+                <li class="reviews-catalogue-features-item">
+                  <p class="reviews-catalogue-features-item-text">
+                    Sviluppo della città con attenzione a economia e
+                    pianificazione
+                  </p>
+                </li>
+                <li class="reviews-catalogue-features-item">
+                  <p class="reviews-catalogue-features-item-text">
+                    Ambientazione Maya distintiva rispetto a molti strategy game
+                    browser
+                  </p>
+                </li>
+                <li class="reviews-catalogue-features-item">
+                  <p class="reviews-catalogue-features-item-text">
+                    Forte componente di crescita graduale e controllo delle
+                    risorse
+                  </p>
+                </li>
+                <li class="reviews-catalogue-features-item">
+                  <p class="reviews-catalogue-features-item-text">
+                    Interessante per chi cerca ordine, costruzione e diplomazia
+                  </p>
+                </li>
+              </ul>
+              <ul class="reviews-catalogue-tags-list">
+                <li class="reviews-catalogue-tags-item">
+                  <p class="reviews-catalogue-tags-text">Strategia</p>
+                </li>
+                <li class="reviews-catalogue-tags-item">
+                  <p class="reviews-catalogue-tags-text">Costruzione</p>
+                </li>
+                <li class="reviews-catalogue-tags-item">
+                  <p class="reviews-catalogue-tags-text">Gestione risors</p>
+                </li>
+              </ul>
+              <div class="reviews-catalogue-btn-wrapper">
+                <a
+                  href="https://play.ikariam.gameforge.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="reviews-catalogue-open-btn"
+                  >Apri il sito</a
+                >
+                <a href="./methodology" class="reviews-catalogue-evaluate-btn"
+                  >Come valutiamo</a
+                >
+              </div>
+            </div>
+          </li>
+          <li
+            class="swiper-slide reviews-catalogue-list-item"
+            data-title="Outspace Game"
+            data-genre="Strategia"
+            data-tags="strategia sci-fi mmorpg"
+            data-score="9.0"
+            data-editorial="true"
+            data-browser="true"
+          >
+            <picture>
+              <source
+                srcset="./img/reviews/reviews-catalogue-img3-desk.png"
+                media="(min-width: 1440px)"
+                width="629"
+                height="307" />
+              <source
+                srcset="./img/reviews/reviews-catalogue-img3-mob.png"
+                width="375"
+                height="307" />
+              <img
+                class="reviews-catalogue-img"
+                src="./img/reviews/reviews-catalogue-img3-mob.png"
+                alt="Screenshot of the game"
+                width="375"
+                height="307"
+                loading="lazy"
+            /></picture>
+            <div class="reviews-catalogue-item-text-wrapper">
+              <p class="reviews-catalogue-item-type">
+                Molto valido per sci-fi live
+              </p>
+              <p class="reviews-catalogue-item-rating">Score 9.0</p>
+              <h3 class="reviews-catalogue-item-title">Outspace Game</h3>
+              <p class="reviews-catalogue-item-text">
+                Strategia spaziale in tempo reale con economia guidata dai
+                giocatori.<br />
+                <br />
+                Outspace si distingue per la sua scala: battaglie RTS, industria
+                player-driven, costruzione di megastrutture e un universo
+                pensato per dare importanza a movimento, logistica e controllo.
+                La lettura editoriale lo posiziona bene per chi non cerca
+                qualcosa di casual, ma un ecosistema più profondo e tecnico.<br />
+                <br />
+              </p>
+              <ul class="reviews-catalogue-features-list">
+                <li class="reviews-catalogue-features-item">
+                  <p class="reviews-catalogue-features-item-text">
+                    Combattimenti in tempo reale con approccio tattico chiaro
+                  </p>
+                </li>
+                <li class="reviews-catalogue-features-item">
+                  <p class="reviews-catalogue-features-item-text">
+                    Universo ampio, con espansione e wormhole come elementi
+                    centrali
+                  </p>
+                </li>
+                <li class="reviews-catalogue-features-item">
+                  <p class="reviews-catalogue-features-item-text">
+                    Economia tra giocatori che aggiunge profondità al loop
+                  </p>
+                </li>
+                <li class="reviews-catalogue-features-item">
+                  <p class="reviews-catalogue-features-item-text">
+                    Adatto a chi ama fantascienza, sistemi complessi e
+                    pianificazione
+                  </p>
+                </li>
+              </ul>
+              <ul class="reviews-catalogue-tags-list">
+                <li class="reviews-catalogue-tags-item">
+                  <p class="reviews-catalogue-tags-text">Sci-fi</p>
+                </li>
+                <li class="reviews-catalogue-tags-item">
+                  <p class="reviews-catalogue-tags-text">Strategia</p>
+                </li>
+                <li class="reviews-catalogue-tags-item">
+                  <p class="reviews-catalogue-tags-text">MMORPG</p>
+                </li>
+              </ul>
+              <div class="reviews-catalogue-btn-wrapper">
+                <a
+                  href="https://play.ikariam.gameforge.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="reviews-catalogue-open-btn"
+                  >Apri il sito</a
+                >
+                <a href="./methodology" class="reviews-catalogue-evaluate-btn"
+                  >Come valutiamo</a
+                >
+              </div>
+            </div>
+          </li>
+          <li
+            class="swiper-slide reviews-catalogue-list-item"
+            data-title="Friends & Dragons"
+            data-genre="Fantasy"
+            data-tags="fantasy co-op dungeon"
+            data-score="8.9"
+            data-editorial="true"
+            data-browser="true"
+          >
+            <picture>
+              <source
+                srcset="./img/reviews/reviews-catalogue-img4-desk.png"
+                media="(min-width: 1440px)"
+                width="629"
+                height="307" />
+              <source
+                srcset="./img/reviews/reviews-catalogue-img4-mob.png"
+                width="375"
+                height="307" />
+              <img
+                class="reviews-catalogue-img"
+                src="./img/reviews/reviews-catalogue-img4-mob.png"
+                alt="Screenshot of the game"
+                width="375"
+                height="307"
+                loading="lazy"
+            /></picture>
+            <div class="reviews-catalogue-item-text-wrapper">
+              <p class="reviews-catalogue-item-type">
+                Buono per cooperazione leggera
+              </p>
+              <p class="reviews-catalogue-item-rating">Score 8.9</p>
+              <h3 class="reviews-catalogue-item-title">Friends & Dragons</h3>
+              <p class="reviews-catalogue-item-text">
+                Puzzle dungeon crawler cooperativo con eroi, progressione e
+                battaglie a turni.<br />
+                <br />
+                Friends & Dragons ha una struttura più accessibile rispetto ai
+                titoli di pura strategia, ma mantiene una buona profondità
+                grazie al numero di eroi, alle combinazioni di squadra e alla
+                natura cooperativa del gioco. È una scelta interessante per chi
+                vuole una componente fantasy meno pesante e più immediata.<br />
+                <br />
+              </p>
+              <ul class="reviews-catalogue-features-list">
+                <li class="reviews-catalogue-features-item">
+                  <p class="reviews-catalogue-features-item-text">
+                    Oltre 200 eroi da raccogliere e combinare
+                  </p>
+                </li>
+                <li class="reviews-catalogue-features-item">
+                  <p class="reviews-catalogue-features-item-text">
+                    Mix di puzzle, tattica e collaborazione
+                  </p>
+                </li>
+                <li class="reviews-catalogue-features-item">
+                  <p class="reviews-catalogue-features-item-text">
+                    Progressione leggibile anche per chi entra senza esperienza
+                    lunga
+                  </p>
+                </li>
+                <li class="reviews-catalogue-features-item">
+                  <p class="reviews-catalogue-features-item-text">
+                    Piacevole per chi cerca ritmo fantasy con forte identità da
+                    party
+                  </p>
+                </li>
+              </ul>
+              <ul class="reviews-catalogue-tags-list">
+                <li class="reviews-catalogue-tags-item">
+                  <p class="reviews-catalogue-tags-text">Fantasy</p>
+                </li>
+                <li class="reviews-catalogue-tags-item">
+                  <p class="reviews-catalogue-tags-text">Co-op</p>
+                </li>
+                <li class="reviews-catalogue-tags-item">
+                  <p class="reviews-catalogue-tags-text">Dungeon</p>
+                </li>
+              </ul>
+              <div class="reviews-catalogue-btn-wrapper">
+                <a
+                  href="https://play.ikariam.gameforge.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="reviews-catalogue-open-btn"
+                  >Apri il sito</a
+                >
+                <a href="./methodology" class="reviews-catalogue-evaluate-btn"
+                  >Come valutiamo</a
+                >
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
