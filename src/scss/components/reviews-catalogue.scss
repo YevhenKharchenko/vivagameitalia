@@ -13,7 +13,7 @@
 
   @include media(desktop) {
     padding-top: 42px;
-    padding-bottom: 42px;
+    padding-bottom: 67px;
     max-width: 1440px;
   }
 }
@@ -33,6 +33,8 @@
   margin-bottom: 84px;
 
   @include media(desktop) {
+    padding: 25px 16px 36px;
+    margin-bottom: 42px;
   }
 }
 
@@ -43,6 +45,7 @@
   margin-bottom: 26px;
 
   @include media(desktop) {
+    flex-direction: row;
   }
 }
 
@@ -50,13 +53,16 @@
   background: #fff;
   border: 1px solid #b4caff;
   border-radius: 20px;
-  padding: 27px 6px;
+  padding: 18px 6px;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 20px;
   color: #676565;
+  outline: none;
 
   @include media(desktop) {
+    width: 100%;
+    max-width: 404px;
   }
 }
 
@@ -64,14 +70,17 @@
   background: #fff;
   border: 1px solid #b4caff;
   border-radius: 20px;
-  padding: 22px 40px;
+  padding: 16px 20px;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 20px;
   text-align: right;
   color: #676565;
+  outline: none;
 
   @include media(desktop) {
+    width: 100%;
+    max-width: 404px;
   }
 }
 
@@ -82,6 +91,7 @@
   margin-bottom: 24px;
 
   @include media(desktop) {
+    flex-direction: row;
   }
 }
 
@@ -100,7 +110,7 @@
   }
 }
 
-.reviews-catalogue-filter-chip .active {
+.reviews-catalogue-filter-chip.active {
   background: #e9a423;
   color: #fff;
 
@@ -144,16 +154,17 @@
 .reviews-catalogue-list-item {
   background: #fff;
   border-radius: 30px;
+  padding-bottom: 18px;
   width: 100% !important;
-  max-width: 355px;
-  min-height: 762px;
+  max-width: 375px;
+  min-height: 1248px;
   display: flex !important;
   flex-direction: column;
   overflow: hidden;
 
   @include media(desktop) {
-    max-width: 414px;
-    min-height: 771px;
+    max-width: 629px;
+    min-height: 972px;
   }
 }
 
@@ -166,10 +177,53 @@
 }
 
 .reviews-catalogue-item-text-wrapper {
-  padding: 35px 5px 55px;
+  padding: 10px 12px 18px;
 
   @include media(desktop) {
-    padding: 35px 23px 76px;
+    padding: 17px 28px 38px;
+  }
+}
+
+.reviews-catalogue-item-type-wrapper {
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+    display: flex;
+    align-items: center;
+    gap: 51px;
+    margin-bottom: 17px;
+  }
+}
+
+.reviews-catalogue-item-type {
+  background: #e9a423;
+  border-radius: 50px;
+  padding: 13px 12px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    margin: 0;
+  }
+}
+
+.reviews-catalogue-item-rating {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #e9a423;
+  margin-bottom: 10px;
+
+  @include media(desktop) {
+    margin: 0;
   }
 }
 
@@ -177,28 +231,76 @@
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 32px;
-  line-height: 2.25;
   color: #000;
   margin-bottom: 24px;
 
   @include media(desktop) {
   }
 }
-
 .reviews-catalogue-item-text {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 20px;
   line-height: 1.1;
   color: #000;
+  margin-bottom: 1em;
+
+  @include media(desktop) {
+  }
+}
+
+.reviews-catalogue-features-list {
+  list-style-type: disc;
+  padding-left: 30px;
   margin-bottom: 35px;
 
   @include media(desktop) {
   }
 }
 
-.reviews-catalogue-item-text-span {
-  line-height: 1.6;
+.reviews-catalogue-features-item {
+  @include media(desktop) {
+  }
+}
+
+.reviews-catalogue-features-item-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.1;
+  color: #000;
+
+  @include media(desktop) {
+  }
+}
+
+.reviews-catalogue-tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 35px;
+
+  @include media(desktop) {
+    gap: 12px;
+  }
+}
+
+.reviews-catalogue-tags-item {
+  border: 1px solid #b4caff;
+  border-radius: 10px;
+  padding: 3px 21px;
+  max-width: max-content;
+
+  @include media(desktop) {
+  }
+}
+
+.reviews-catalogue-tags-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  text-align: center;
+  color: #e9a423;
 
   @include media(desktop) {
   }
@@ -212,7 +314,7 @@
 
   @include media(desktop) {
     flex-direction: row;
-    justify-content: center;
+    gap: 80px;
   }
 }
 
