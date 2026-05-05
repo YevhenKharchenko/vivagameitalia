@@ -6,6 +6,8 @@ const otherBtn = document.querySelector('.header-other-btn');
 const otherList = document.querySelector('.header-other-list');
 const contextOtherBtn = document.querySelector('.context-other-btn');
 const contextOtherList = document.querySelector('.context-other-list');
+const headerBtnSpan = document.querySelector('.header-btn-span');
+const contextBtnSpan = document.querySelector('.context-btn-span');
 
 menuBtn.addEventListener('click', onMenuButtonClick);
 otherBtn.addEventListener('click', onOtherButtonClick);
@@ -55,10 +57,22 @@ function onOutsideMenuClick(e) {
 
 function onOtherButtonClick() {
   otherList.classList.toggle('other-list-is-open');
+
+  if (otherList.classList.contains('other-list-is-open')) {
+    headerBtnSpan.textContent = '-';
+  } else {
+    headerBtnSpan.textContent = '+';
+  }
 }
 
 function onContextOtherButtonClick() {
   contextOtherList.classList.toggle('context-other-list-is-open');
+
+  if (otherList.classList.contains('context-other-list-is-open')) {
+    contextBtnSpan.textContent = '-';
+  } else {
+    contextBtnSpan.textContent = '+';
+  }
 }
 
 const navLinks = document.querySelectorAll('.nav-list-link');

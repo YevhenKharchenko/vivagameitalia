@@ -185,10 +185,13 @@
 }
 
 .reviews-catalogue-item-type-wrapper {
-  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 10px;
 
   @include media(desktop) {
-    display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 51px;
     margin-bottom: 17px;
@@ -220,10 +223,8 @@
   font-size: 20px;
   text-transform: uppercase;
   color: #e9a423;
-  margin-bottom: 10px;
 
   @include media(desktop) {
-    margin: 0;
   }
 }
 

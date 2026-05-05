@@ -1,0 +1,140 @@
+.contacts-hero-section {
+  @include media(desktop) {
+  }
+}
+
+.contacts-hero-bg-wrapper {
+  padding-top: 112px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 140px;
+    padding-bottom: 82px;
+    max-width: 1440px;
+  }
+}
+
+.contacts-hero-container {
+  padding: 0 10px;
+
+  @include media(desktop) {
+    padding: 0 75px;
+  }
+}
+
+.contacts-hero-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+}
+
+.contacts-hero-text-wrapper {
+  @include media(desktop) {
+    max-width: 602px;
+  }
+}
+
+.contacts-hero-title {
+  @include media(desktop) {
+  }
+}
+
+.contacts-hero-subtitle {
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+  }
+}
+
+.contacts-hero-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #676565;
+
+  @include media(desktop) {
+  }
+}
+
+.contacts-hero-img-wrapper {
+  background: #d4e1ff;
+  border-radius: 30px;
+  padding-bottom: 50px;
+
+  @include media(desktop) {
+    padding-bottom: 70px;
+    max-width: 562px;
+  }
+}
+
+.contacts-hero-img {
+  border-radius: 30px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+
+  @include media(desktop) {
+  }
+}
+
+.contacts-hero-img-text-wrapper {
+  padding: 0 10px;
+
+  @include media(desktop) {
+    padding: 0 21px;
+  }
+}
+
+.contacts-hero-img-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.125;
+  color: #000;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+  }
+}
+
+.contacts-hero-img-list {
+  list-style-type: disc;
+  color: #000;
+  padding-left: 30px;
+
+  @include media(desktop) {
+  }
+}
+
+.contacts-hero-img-item {
+  @include media(desktop) {
+  }
+}
+
+.contacts-hero-img-item-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.1;
+  color: #000;
+
+  @include media(desktop) {
+  }
+}
+
+.contacts-hero-item-email-link {
+  font-weight: 700;
+  word-break: break-all;
+
+  @include media(desktop) {
+  }
+}

@@ -1,0 +1,334 @@
+.contacts-message-section {
+  @include media(desktop) {
+  }
+}
+
+.contacts-message-bg-wrapper {
+  padding-top: 42px;
+  padding-bottom: 58px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-bottom: 0;
+    max-width: 1440px;
+  }
+}
+
+.contacts-message-container {
+  padding: 0 10px;
+
+  @include media(desktop) {
+    padding: 0 75px;
+  }
+}
+
+.contacts-message-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+  }
+}
+
+.contacts-message-form-wrapper {
+  @include media(desktop) {
+    width: 100%;
+    max-width: 777px;
+  }
+}
+
+.contacts-message-form {
+  display: flex;
+  flex-direction: column;
+
+  @include media(desktop) {
+  }
+}
+
+.contacts-message-label-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  position: relative;
+}
+
+.contacts-message-form-label {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #1e1e1e;
+
+  @include media(desktop) {
+  }
+}
+
+.contacts-message-name-email-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 30px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    gap: 16px;
+  }
+}
+
+.contacts-message-name-wrapper {
+  @include media(desktop) {
+    width: 100%;
+    max-width: 381px;
+  }
+}
+
+.contacts-message-email-wrapper {
+  @include media(desktop) {
+    width: 100%;
+    max-width: 381px;
+  }
+}
+
+.contacts-message-object-wrapper {
+  margin-bottom: 30px;
+
+  @include media(desktop) {
+  }
+}
+
+.contacts-message-textarea-wrapper {
+  margin-bottom: 36px;
+
+  @include media(desktop) {
+  }
+}
+
+.contacts-message-form-label {
+  width: 100%;
+
+  @include media(desktop) {
+  }
+}
+
+.contacts-message-form-input {
+  background: #fff;
+  border: 1px solid #b4caff;
+  border-radius: 20px;
+  padding: 21px;
+  outline: transparent;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #676565;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+
+  @include media(desktop) {
+  }
+}
+
+.contacts-message-form-input:focus {
+}
+
+.contacts-message-form-input::placeholder {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #676565;
+
+  @include media(desktop) {
+  }
+}
+
+.contacts-message-text-input {
+}
+
+.contacts-message-textarea {
+  background: #fff;
+  border: 1px solid #b4caff;
+  border-radius: 20px;
+  padding: 21px;
+  outline: transparent;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #676565;
+  transition: all 0.3s ease-in-out;
+  resize: none;
+  width: 100%;
+
+  @include media(desktop) {
+  }
+}
+
+.contacts-message-textarea::placeholder {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #676565;
+
+  @include media(desktop) {
+  }
+}
+
+.contacts-message-checkbox-row {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+  margin-bottom: 36px;
+
+  @include media(desktop) {
+  }
+}
+
+.contacts-message-form-checkbox {
+  min-width: 26px;
+  width: 26px;
+  height: 26px;
+
+  @include media(desktop) {
+  }
+}
+
+.contacts-message-checkbox-span {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #1e1e1e;
+  max-width: 310px;
+
+  @include media(desktop) {
+    max-width: max-content;
+  }
+}
+
+.contacts-message-form-text {
+  background: #fff;
+  border: 1px solid #b4caff;
+  border-radius: 20px;
+  padding: 21px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #676565;
+  margin-bottom: 36px;
+
+  @include media(desktop) {
+  }
+}
+
+.contacts-message-form-submit-btn {
+  background: #e9a423;
+  border-radius: 20px;
+  padding: 23px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+
+  &:active,
+  &:focus {
+  }
+
+  @include media(desktop) {
+    &:hover {
+    }
+  }
+}
+
+.modal-form {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #222221;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.modal-form.show {
+  opacity: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+.contacts-message-text-wrapper {
+  background: #fff;
+  border: 1px solid #676565;
+  border-radius: 30px;
+  padding: 21px 9px;
+
+  @include media(desktop) {
+    max-width: 442px;
+  }
+}
+
+.contacts-message-text-wrapper-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: #000;
+  margin-bottom: 26px;
+
+  @include media(desktop) {
+  }
+}
+
+.contacts-message-text-wrapper-list {
+  list-style-type: disc;
+  padding-left: 30px;
+  color: #000;
+  margin-bottom: 26px;
+
+  @include media(desktop) {
+  }
+}
+
+.contacts-message-text-wrapper-list-item {
+  @include media(desktop) {
+  }
+}
+
+.contacts-message-text-wrapper-item-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #000;
+
+  @include media(desktop) {
+  }
+}
+
+.contacts-message-text-wrapper-text {
+  border: 1px solid #b4caff;
+  border-radius: 20px;
+  padding: 9px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #676565;
+
+  @include media(desktop) {
+  }
+}

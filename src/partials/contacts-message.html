@@ -1,0 +1,121 @@
+<section class="section contacts-message-section" id="home">
+  <div class="contacts-message-bg-wrapper">
+    <div class="container contacts-message-container">
+      <div class="contacts-message-content-wrapper">
+        <div class="contacts-message-form-wrapper">
+          <form class="contacts-message-form" id="contact-form">
+            <div class="contacts-message-name-email-wrapper">
+              <div
+                class="contacts-message-label-wrapper contacts-message-name-wrapper"
+              >
+                <label
+                  class="contacts-message-form-label contact-form-text-label"
+                  >Nome</label
+                ><input
+                  class="contacts-message-form-input"
+                  type="text"
+                  placeholder="Il tuo nome"
+                  name="name"
+                  id="name"
+                  required
+                />
+              </div>
+              <div
+                class="contacts-message-label-wrapper contacts-message-email-wrapper"
+              >
+                <label class="contacts-message-form-label" for="email"
+                  >Email</label
+                ><input
+                  class="contacts-message-form-input"
+                  type="email"
+                  placeholder="nome@email.it"
+                  name="email"
+                  id="email"
+                  required
+                />
+              </div>
+            </div>
+            <div
+              class="contacts-message-label-wrapper contacts-message-object-wrapper"
+            >
+              <label
+                class="contacts-message-form-label contacts-message-form-text-label"
+                >Oggetto</label
+              ><input
+                class="contacts-message-form-input"
+                type="text"
+                placeholder="Aggiornamento catalogo, feedback o richiesta informativa"
+                name="object"
+                id="object"
+                required
+              />
+            </div>
+            <div
+              class="contacts-message-label-wrapper contacts-message-textarea-wrapper"
+            >
+              <label class="contacts-message-form-label" for="message"
+                >Messaggio</label
+              >
+              <textarea
+                class="contacts-message-textarea"
+                name="message"
+                id="message"
+                rows="8"
+                placeholder="Scrivi qui il tuo messaggio"
+                maxlength="300"
+                required
+              ></textarea>
+            </div>
+            <label for="" class="contacts-message-checkbox-row"
+              ><input
+                class="contacts-message-form-checkbox"
+                type="checkbox"
+                required
+              /><span class="contacts-message-checkbox-span"
+                >Confermo di aver letto l’Informativa sulla Privacy e autorizzo
+                l’uso dell’email per una risposta editoriale.</span
+              ></label
+            >
+            <p class="contacts-message-form-text">
+              Il messaggio verrà inviato alla redazione.<br />
+              Se necessario, riceverai una risposta all’indirizzo fornito.
+            </p>
+            <button type="submit" class="contacts-message-form-submit-btn">
+              Invia il messaggio
+            </button>
+          </form>
+          <div id="success-popup" class="modal-form hidden">
+            ✅ Your message has been sent!
+          </div>
+        </div>
+        <div class="contacts-message-text-wrapper">
+          <p class="contacts-message-text-wrapper-title">
+            Cosa possiamo gestire
+          </p>
+          <ul class="contacts-message-text-wrapper-list">
+            <li class="contacts-message-text-wrapper-list-item">
+              <p class="contacts-message-text-wrapper-item-text">
+                Segnalazioni su contenuti, descrizioni o link
+              </p>
+            </li>
+            <li class="contacts-message-text-wrapper-list-item">
+              <p class="contacts-message-text-wrapper-item-text">
+                Feedback su categorie e struttura del sito
+              </p>
+            </li>
+            <li class="contacts-message-text-wrapper-list-item">
+              <p class="contacts-message-text-wrapper-item-text">
+                Domande su metodologia o criteri editoriali
+              </p>
+            </li>
+          </ul>
+          <p class="contacts-message-text-wrapper-text">
+            Per questioni legate ad account, pagamenti o problemi tecnici delle
+            piattaforme, è necessario contattare direttamente i servizi
+            ufficiali.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
