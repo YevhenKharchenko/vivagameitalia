@@ -1,0 +1,95 @@
+.methodology-process-section {
+  @include media(desktop) {
+  }
+}
+
+.methodology-process-section-wrapper {
+  padding-top: 60px;
+  padding-bottom: 64px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+
+  @include media(desktop) {
+    padding-top: 76px;
+    padding-bottom: 80px;
+    max-width: 1440px;
+  }
+}
+
+.methodology-process-container {
+  @include media(desktop) {
+  }
+}
+
+.methodology-process-title {
+  @include media(desktop) {
+  }
+}
+
+.methodology-process-subtitle {
+  margin-bottom: 70px;
+
+  @include media(desktop) {
+  }
+}
+
+.methodology-process-swiper-container {
+  max-width: 313px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 100%;
+  }
+}
+
+.methodology-process-swiper-container.show {
+  visibility: visible;
+}
+
+.methodology-process-swiper-wrapper {
+  @include media(desktop) {
+    display: flex;
+    align-items: stretch;
+    gap: 12px;
+  }
+}
+
+.methodology-process-list-item {
+  background: #fff;
+  border-radius: 30px;
+  padding: 42px 48px;
+  width: 100% !important;
+  max-width: 313px;
+  min-height: 340px;
+  display: flex !important;
+  flex-direction: column;
+  overflow: hidden;
+
+  @include media(desktop) {
+  }
+}
+
+.methodology-process-item-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #000;
+  min-height: 68px;
+  margin-bottom: 20px;
+
+  @include media(desktop) {
+  }
+}
+
+.methodology-process-item-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+
+  @include media(desktop) {
+  }
+}

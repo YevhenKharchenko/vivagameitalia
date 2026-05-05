@@ -1,0 +1,112 @@
+.methodology-criteria-section {
+  background: #d4e1ff;
+
+  @include media(desktop) {
+  }
+}
+
+.methodology-criteria-section-wrapper {
+  padding-top: 42px;
+  padding-bottom: 42px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+
+  @include media(desktop) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 1440px;
+  }
+}
+
+.methodology-criteria-container {
+  @include media(desktop) {
+  }
+}
+
+.methodology-criteria-title {
+  @include media(desktop) {
+  }
+}
+
+.methodology-criteria-subtitle {
+  margin-bottom: 70px;
+
+  @include media(desktop) {
+  }
+}
+
+.methodology-criteria-swiper-container {
+  max-width: 355px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 100%;
+  }
+}
+
+.methodology-criteria-swiper-container.show {
+  visibility: visible;
+}
+
+.methodology-criteria-swiper-wrapper {
+  @include media(desktop) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 34px;
+  }
+}
+
+.methodology-criteria-list-item {
+  background: #fff;
+  border-radius: 30px;
+  padding: 33px 18px;
+  width: 100% !important;
+  max-width: 355px;
+  min-height: 343px;
+  display: flex !important;
+  flex-direction: column;
+  overflow: hidden;
+
+  @include media(desktop) {
+    padding: 33px 26px;
+    max-width: 407px;
+    min-height: 350px;
+  }
+}
+
+.methodology-criteria-item-number {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #e9a423;
+  margin-bottom: 10px;
+
+  @include media(desktop) {
+  }
+}
+
+.methodology-criteria-item-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #000;
+  min-height: 68px;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+  }
+}
+
+.methodology-criteria-item-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+
+  @include media(desktop) {
+  }
+}
