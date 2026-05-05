@@ -1,0 +1,113 @@
+.faq-contacts-section {
+  @include media(desktop) {
+  }
+}
+
+.faq-contacts-section-wrapper {
+  padding-top: 42px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+
+  @include media(desktop) {
+    max-width: 1440px;
+  }
+}
+
+.faq-contacts-container {
+  @include media(desktop) {
+  }
+}
+
+.faq-contacts-title {
+  @include media(desktop) {
+  }
+}
+
+.faq-contacts-swiper-container {
+  max-width: 355px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 100%;
+  }
+}
+
+.faq-contacts-swiper-container.show {
+  visibility: visible;
+}
+
+.faq-contacts-swiper-wrapper {
+  @include media(desktop) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 34px;
+  }
+}
+
+.faq-contacts-list-item {
+  background: #fff;
+  border-radius: 30px;
+  padding: 18px 36px;
+  width: 100% !important;
+  max-width: 355px;
+  min-height: 212px;
+  display: flex !important;
+  flex-direction: column;
+  overflow: hidden;
+
+  @include media(desktop) {
+    padding: 18px 62px;
+    max-width: 407px;
+  }
+}
+
+.faq-contacts-item-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #e9a423;
+  margin-bottom: 12px;
+
+  @include media(desktop) {
+  }
+}
+
+.faq-contacts-item-subtitle {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 12px;
+
+  @include media(desktop) {
+  }
+}
+
+.faq-contacts-item-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+
+  @include media(desktop) {
+  }
+}
+
+.faq-contacts-item-email-link {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+  display: block;
+  max-width: max-content;
+  word-break: break-all;
+  margin-top: 12px;
+
+  @include media(desktop) {
+  }
+}
