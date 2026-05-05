@@ -1,0 +1,132 @@
+.about-independence-section {
+  background: #d4e1ff;
+
+  @include media(desktop) {
+  }
+}
+
+.about-independence-bg-wrapper {
+  padding-top: 42px;
+  padding-bottom: 42px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    max-width: 1440px;
+  }
+}
+
+.about-independence-container {
+  padding: 0 10px;
+
+  @include media(desktop) {
+    padding: 0 75px;
+  }
+}
+
+.about-independence-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+  }
+}
+
+.about-independence-text-wrapper {
+  background: #fff;
+  border-radius: 30px;
+  padding: 38px 10px;
+
+  @include media(desktop) {
+    padding: 35px 40px;
+    max-width: 684px;
+  }
+}
+
+.about-independence-title {
+  @include media(desktop) {
+  }
+}
+
+.about-independence-subtitle {
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+  }
+}
+
+.about-independence-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #676565;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+  }
+}
+
+.about-independence-email-link {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #676565;
+  display: block;
+  max-width: max-content;
+  word-break: break-all;
+
+  @include media(desktop) {
+  }
+}
+
+.about-independence-bottom-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+
+  @include media(desktop) {
+  }
+}
+
+.about-independence-bottom-text-wrapper {
+  background: #fff;
+  border: 1px solid #676565;
+  border-radius: 30px;
+  padding: 39px 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @include media(desktop) {
+    padding: 40px 34px;
+    max-width: 532px;
+  }
+}
+
+.about-independence-bottom-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: #000;
+  margin-bottom: 10px;
+
+  @include media(desktop) {
+  }
+}
+
+.about-independence-bottom-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #000;
+
+  @include media(desktop) {
+  }
+}
