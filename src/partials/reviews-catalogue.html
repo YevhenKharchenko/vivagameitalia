@@ -4,44 +4,53 @@
       <form action="" class="reviews-catalogue-form">
         <div class="reviews-catalogue-toolbar">
           <input
+            name="search"
             type="search"
             data-filter="search"
             placeholder="Cerca per nome, genere o caratteristica"
             class="reviews-catalogue-input"
           />
-          <select
-            name=""
-            id=""
-            data-filter="genre"
-            class="reviews-catalogue-select"
-          >
-            <option value="all">Tutti i generi</option>
-            <option value="Strategia">Strategia</option>
-            <option value="Fantasy">Fantasy</option>
-            <option value="Sci-fi">Sci-fi</option>
-            <option value="Co-op">Co-op</option>
-            <option value="Dungeon">Dungeon</option>
-            <option value="Farm">Farm</option>
-            <option value="Mitologia">Mitologia</option>
-            <option value="Espansione">Espansione</option>
-            <option value="MMORPG">MMORPG</option>
-            <option value="Simulazione">Simulazione</option>
-            <option value="Costruzione">Costruzione</option>
-            <option value="Gestione risorse">Gestione risorse</option>
-            <option value="Browser">Browser game</option>
-            <option value="Casual">Casual</option>
-          </select>
-          <select
-            name=""
-            id=""
-            data-filter="sort"
-            class="reviews-catalogue-select"
-          >
-            <option value="editorial">Ordina per lettura editoriale</option>
-            <option value="popularity">Ordina per popularita</option>
-            <option value="browser">Ordina per esperienza browser</option>
-            <option value="alphabetical">Ordina per alfabeticamente</option>
-          </select>
+          <div class="reviews-catalogue-select-wrapper">
+            <select
+              name="genre"
+              data-filter="genre"
+              class="reviews-catalogue-select"
+            >
+              <option value="all">Tutti i generi</option>
+              <option value="Strategia">Strategia</option>
+              <option value="Fantasy">Fantasy</option>
+              <option value="Sci-fi">Sci-fi</option>
+              <option value="Co-op">Co-op</option>
+              <option value="Dungeon">Dungeon</option>
+              <option value="Farm">Farm</option>
+              <option value="Mitologia">Mitologia</option>
+              <option value="Espansione">Espansione</option>
+              <option value="MMORPG">MMORPG</option>
+              <option value="Simulazione">Simulazione</option>
+              <option value="Costruzione">Costruzione</option>
+              <option value="Gestione risorse">Gestione risorse</option>
+              <option value="Browser">Browser game</option>
+              <option value="Casual">Casual</option>
+            </select>
+            <svg class="reviews-select-icon" width="24" height="24">
+              <use href="./img/sprite.svg#icon-triangle"></use>
+            </svg>
+          </div>
+          <div class="reviews-catalogue-select-wrapper">
+            <select
+              name="sort"
+              data-filter="sort"
+              class="reviews-catalogue-select"
+            >
+              <option value="editorial">Ordina per lettura editoriale</option>
+              <option value="popularity">Ordina per popularita</option>
+              <option value="browser">Ordina per esperienza browser</option>
+              <option value="alphabetical">Ordina per alfabeticamente</option>
+            </select>
+            <svg class="reviews-select-icon" width="24" height="24">
+              <use href="./img/sprite.svg#icon-triangle"></use>
+            </svg>
+          </div>
         </div>
         <div class="reviews-catalogue-filter-chips">
           <button

@@ -63,14 +63,14 @@
   border-radius: 30px;
   width: 100% !important;
   max-width: 355px;
-  min-height: 762px;
+  min-height: 727px;
   display: flex !important;
   flex-direction: column;
   overflow: hidden;
 
   @include media(desktop) {
     max-width: 414px;
-    min-height: 771px;
+    min-height: 704px;
   }
 }
 

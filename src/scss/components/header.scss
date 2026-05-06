@@ -32,7 +32,7 @@
   }
 }
 
-.header-logo-link {
+.header-logo-wrapper {
   display: none;
 
   @include media(desktop) {
@@ -40,6 +40,16 @@
     justify-content: center;
     align-items: center;
     gap: 24px;
+  }
+}
+
+.header-logo-link {
+  display: none;
+
+  @include media(desktop) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 

@@ -1,9 +1,9 @@
-.privacy-section {
+.cookies-section {
   @include media(desktop) {
   }
 }
 
-.privacy-bg-wrapper {
+.cookies-bg-wrapper {
   padding-top: 112px;
   padding-bottom: 42px;
   max-width: 375px;
@@ -17,7 +17,7 @@
   }
 }
 
-.privacy-container {
+.cookies-container {
   padding: 0 10px;
 
   @include media(desktop) {
@@ -25,7 +25,7 @@
   }
 }
 
-.privacy-hero-content-wrapper {
+.cookies-hero-content-wrapper {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -38,25 +38,25 @@
   }
 }
 
-.privacy-hero-text-wrapper {
+.cookies-hero-text-wrapper {
   @include media(desktop) {
     max-width: 602px;
   }
 }
 
-.privacy-title {
+.cookies-title {
   @include media(desktop) {
   }
 }
 
-.privacy-subtitle {
+.cookies-subtitle {
   margin-bottom: 24px;
 
   @include media(desktop) {
   }
 }
 
-.privacy-hero-text {
+.cookies-hero-text {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -66,12 +66,12 @@
   }
 }
 
-.privacy-bottom-wrapper {
+.cookies-bottom-wrapper {
   @include media(desktop) {
   }
 }
 
-.privacy-bottom-text-wrapper {
+.cookies-bottom-text-wrapper {
   background: #fff;
   border: 1px solid #b4caff;
   border-radius: 30px;
@@ -86,7 +86,7 @@
   }
 }
 
-.privacy-bottom-wrapper-title {
+.cookies-bottom-wrapper-title {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 32px;
@@ -97,7 +97,7 @@
   }
 }
 
-.privacy-bottom-wrapper-text {
+.cookies-bottom-wrapper-text {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 20px;
@@ -107,7 +107,7 @@
   }
 }
 
-.privacy-list {
+.cookies-list {
   display: flex;
   flex-direction: column;
   gap: 37px;
@@ -116,7 +116,7 @@
   }
 }
 
-.privacy-list-item {
+.cookies-list-item {
   background: #fff;
   border: 1px solid #b4caff;
   border-radius: 20px;
@@ -127,7 +127,7 @@
   }
 }
 
-.privacy-item-title {
+.cookies-item-title {
   padding-left: 22px;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
@@ -140,7 +140,7 @@
   }
 }
 
-.privacy-item-text {
+.cookies-item-text {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -150,7 +150,7 @@
   }
 }
 
-.privacy-email-link {
+.cookies-email-link {
   font-family: 'Lato', sans-serif;
   font-weight: 900;
   font-size: 32px;
